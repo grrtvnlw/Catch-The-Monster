@@ -1,5 +1,5 @@
 # Catch the Monster
-![Image description](resources/ctm.png)
+![Image description](resouces/ctm.png)
 ## Contents
 - What It Is
 - What I Used
