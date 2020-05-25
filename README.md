@@ -30,9 +30,7 @@ I was able to implement the following features to the game:
 - Challenge #3: Writing Code to Handle Multiple Scenarios
 
 ## Minimum Viable Product
-## Stretch Goals
-## Screenshots
-## Code Examples
+We received the folloing instructions for this assignment: 
 
 # Setup
 
@@ -98,3 +96,8 @@ python3 app.py
     - It should only appear temporarily.
     - If the player loses all their lives, ask if they want to load their saved game.
         - Optionally, delete the saved game info so the player can only use a saved game once.
+
+## Stretch Goals
+## Screenshots
+## Code Examples
+
