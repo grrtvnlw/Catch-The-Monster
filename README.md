@@ -1,16 +1,34 @@
 # Catch the Monster
 ![Image description](resources/ctm.png)
 ## Contents
-- What It Is
-- What I Used
-- Challenges and Solutions
-- Minimum Viable Product
-- Stretch Goals
-- Screenshots
-- Code Examples
+- [What It Is](#What-It-Is)
+- [What I Used](#What-I-Used)
+- [Challenges and Solutions](#Challenges-and-Solutions)
+- [Minimum Viable Product](#Minimum-Viable-Product)
+- [Stretch Goals](#Stretch-Goals)
+- [Screenshots](#Screenshots)
+- [Code Examples](#Code-Examples)
 ## What It Is
+Catch the Monster is a game written in Python and the Pyglet library. The challenge of this project was to start with a small codebase. We were tasked with learning how the codebase worked and then adding additional functionality to the game. The idea of the basic game is to navigate the main sprite and catch a small green monster.
+
+I was able to implement the following features to the game:
+- Display for points gained and lives lost.
+- A red goblin that will cause the player to lose lives every time the two sprites collide.
+- After 50 points scored, a second goblin appears on the screen.
+- After 100 points scored, a third goblin appears on the screen.
+- A goldfish will appear at random that will give the player an extra life on collision.
+- Using the Pickle library, I am able to keep track of the high score by storing the high score data in a .dat file.
 ## What I Used
+- Python
+- Pyglet
+- Pickle
 ## Challenges and Solutions
+- Challenge #1: Comprehending and Building on an Existing Codebase
+
+- Challenge #2: Working with Collisions
+
+- Challenge #3: Writing Code to Handle Multiple Scenarios
+
 ## Minimum Viable Product
 ## Stretch Goals
 ## Screenshots
