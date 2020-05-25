@@ -12,7 +12,7 @@
 Catch the Monster is a game written in Python and the Pyglet library. The challenge of this project was to start with a small codebase. We were tasked with learning how the codebase worked and then adding additional functionality to the game. The idea of the basic game is to navigate the main sprite and catch a small green monster.
 
 I was able to implement the following features to the game:
-- Display for points gained and lives lost.
+- A system for keeping track of points earned and lives lost.
 - A red goblin that will cause the player to lose lives every time the two sprites collide.
 - After 50 points scored, a second goblin appears on the screen.
 - After 100 points scored, a third goblin appears on the screen.
@@ -30,9 +30,9 @@ I was able to implement the following features to the game:
 - Challenge #3: Writing Code to Handle Multiple Scenarios
 
 ## Minimum Viable Product
-We received the folloing instructions for this assignment: 
+We received the following instructions for this assignment: 
 
-# Setup
+### Setup
 
 First, you'll need to install the `pyglet` library so that `python3` can use it.
 
@@ -46,7 +46,7 @@ pip3 install pyglet
 
 On your computer, the program might be called `pip` instead of `pip3`. If `pip3 install pyglet` gives you an error, try `pip install pyglet`.
 
-# The game
+### The game
 
 To run the game, use the following command:
 
@@ -55,7 +55,7 @@ python3 app.py
 ```
 
 
-# Explore
+### Explore
 
 - Move the score text so it's not in the way ;)
 - Change how fast our player can move
@@ -63,9 +63,9 @@ python3 app.py
 - Replace the monster's image with the `goblin.png`
 - Play a different sound when you catch a monster
 
-# Improve
+### Improve
 
-## Small
+### Small
 
 - When the hero catches a monster, increase the score by 10
 - When the score reaches 100, call the `game_over()` function
@@ -73,7 +73,7 @@ python3 app.py
 - Change the score label either using a different font or by using HTML: https://pyglet.readthedocs.io/en/latest/modules/text/index.html
 - Download some (free!) graphics from [kenney.nl](https://kenney.nl/assets?q=2d) and replace the hero and monster. (Cats, maybe??)
 
-## Medium
+### Medium
 
 - add a goblin to the game
     - use the `goblin.png` image in the `resources` folder
@@ -88,7 +88,7 @@ python3 app.py
     - The 'bullet' increases the hero's speed temporarily
     - The 'flame' allows the hero to shoot goblins (thus taking them off screen)
 
-## Large
+### Large
 
 - As the player's score increases, add more goblins
 
