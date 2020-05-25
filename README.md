@@ -9,7 +9,7 @@
 - [Screenshots](#Screenshots)
 - [Code Examples](#Code-Examples)
 ## What It Is
-Catch the Monster is a game written in Python and the Pyglet library. The challenge of this project was to start with a small codebase. We were tasked with learning how the codebase worked and then adding additional functionality to the game. The idea of the basic game is to navigate the main sprite and catch a small green monster.
+Catch the Monster is a game written in Python and the Pyglet library. The challenge of this project was to start with a small codebase. We were tasked with learning how the codebase worked and then adding additional functionality to the game. The idea of the basic game is to navigate the main sprite around the game board and catch a small green monster.
 
 I was able to implement the following features to the game:
 - A system for keeping track of points earned and lives lost.
